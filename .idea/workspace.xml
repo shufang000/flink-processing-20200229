@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50ca53b4-d1a9-4633-ac55-cceba50fd839" name="Default Changelist" comment="" />
+    <list default="true" id="50ca53b4-d1a9-4633-ac55-cceba50fd839" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/bean/SensorReading.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/utils/TestTime.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/window/SensorReadingWindow.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/window/WaterMarkDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/window/WindowOperDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/flinkFlile" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/flinkFlile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/MyJdbcFuntion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/MyJdbcFuntion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flinkFlile" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flinkFlile" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +43,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Object" />
+        <option value="Package Object" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -55,14 +70,18 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1YTnGusuW7fwklJkl3c1Rus5fTy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -81,13 +100,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestJDBCSink02">
-    <configuration name="ExtensionMapWith" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.extension_scala.ExtensionMapWith" />
+  <component name="RunManager" selected="Application.SensorReadingWindow">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.bean.A" />
       <module name="flink-processing20200229" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shufang.flink.extension_scala.*" />
+          <option name="PATTERN" value="com.shufang.flink.bean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJDBCSink" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.connectors.TestJDBCSink" />
+    <configuration name="SensorReadingWindow" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.window.SensorReadingWindow" />
       <module name="flink-processing20200229" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shufang.flink.connectors.*" />
+          <option name="PATTERN" value="com.shufang.flink.window.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestKafkaSink" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.connectors.TestKafkaSink" />
+    <configuration name="TestTime" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.utils.TestTime" />
       <module name="flink-processing20200229" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shufang.flink.connectors.*" />
+          <option name="PATTERN" value="com.shufang.flink.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRedisSink" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.connectors.TestRedisSink" />
+    <configuration name="WindowOperDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.window.WindowOperDemo" />
       <module name="flink-processing20200229" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shufang.flink.connectors.*" />
+          <option name="PATTERN" value="com.shufang.flink.window.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SensorReadingWindow" />
+        <item itemvalue="Application.TestTime" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.WindowOperDemo" />
         <item itemvalue="Application.TestJDBCSink02" />
-        <item itemvalue="Application.ExtensionMapWith" />
-        <item itemvalue="Application.TestJDBCSink" />
-        <item itemvalue="Application.TestRedisSink" />
-        <item itemvalue="Application.TestKafkaSink" />
       </list>
     </recent_temporary>
   </component>
@@ -171,11 +190,23 @@
       <workItem from="1582984024269" duration="2916000" />
       <workItem from="1582987515540" duration="29261000" />
       <workItem from="1583142023417" duration="14448000" />
+      <workItem from="1583244608824" duration="16207000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

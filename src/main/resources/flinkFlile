@@ -1,7 +1,13 @@
-flink stream
-spark stream
-hello world
-good morning
-sunday friday
-this is a very good man
-round one get started
+sensor_1,1583317333594,12
+sensor_1,1583317334594,13
+sensor_1,1583317336594,110
+sensor_1,1583317338594,12
+sensor_1,1583317342594,18
+sensor_1,1583317343594,34
+sensor_1,1583317344594,17
+sensor_1,1583317345594,32
+sensor_1,1583317346594,89
+sensor_1,1583317347594,64
+sensor_1,1583317348594,32
+sensor_1,1583317349594,19
+sensor_1,1583317350594,77
