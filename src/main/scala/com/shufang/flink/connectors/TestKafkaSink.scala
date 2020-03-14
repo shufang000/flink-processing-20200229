@@ -5,6 +5,7 @@ import com.shufang.flink.examples.MyPeopleSource
 import org.apache.flink.api.common.serialization.SimpleStringSchema
 import org.apache.flink.streaming.api.scala._
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer
+import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer.Semantic
 
 /**
  * 在Flink中内置了许多其他框架的连接器

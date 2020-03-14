@@ -2,15 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50ca53b4-d1a9-4633-ac55-cceba50fd839" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/bean/SensorReading.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/utils/TestTime.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/window/SensorReadingWindow.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/window/WaterMarkDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/window/WindowOperDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/connectors/KafkaSource01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/executionconfig/ExecutionConfigs.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/functions/ProcessFunctionTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/functions/SensorHighTempWarnDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/functions/SideOutputDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/repartition/RepartitionDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/state/CheckPointDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/state/StateDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/table_and_sql_api/TableTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/window/SensorReadingWindow02.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/flinkFlile" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/flinkFlile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/MyJdbcFuntion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/MyJdbcFuntion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/connectors/StreamFromKafka.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/connectors/StreamFromKafka.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/connectors/TestKafkaSink.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/connectors/TestKafkaSink.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/StreamFromKafka$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/StreamFromKafka.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2$$anon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/flinkFlile" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flinkFlile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,6 +51,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="flinkprocessing20200229" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,6 +96,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -100,13 +117,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SensorReadingWindow">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.bean.A" />
+  <component name="RunManager" selected="Application.RepartitionDemo">
+    <configuration name="RepartitionDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.repartition.RepartitionDemo" />
       <module name="flink-processing20200229" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shufang.flink.bean.*" />
+          <option name="PATTERN" value="com.shufang.flink.repartition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SensorReadingWindow" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.window.SensorReadingWindow" />
+    <configuration name="SensorReadingWindow02" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.window.SensorReadingWindow02" />
       <module name="flink-processing20200229" />
       <extension name="coverage">
         <pattern>
@@ -127,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJDBCSink02" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.connectors.TestJDBCSink02" />
+    <configuration name="SideOutputDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.functions.SideOutputDemo" />
       <module name="flink-processing20200229" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shufang.flink.connectors.*" />
+          <option name="PATTERN" value="com.shufang.flink.functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTime" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.utils.TestTime" />
+    <configuration name="StateDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.state.StateDemo" />
       <module name="flink-processing20200229" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shufang.flink.utils.*" />
+          <option name="PATTERN" value="com.shufang.flink.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowOperDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.window.WindowOperDemo" />
+    <configuration name="TableTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.shufang.flink.table_and_sql_api.TableTest" />
       <module name="flink-processing20200229" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shufang.flink.window.*" />
+          <option name="PATTERN" value="com.shufang.flink.table_and_sql_api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SensorReadingWindow" />
-        <item itemvalue="Application.TestTime" />
-        <item itemvalue="Application.A" />
-        <item itemvalue="Application.WindowOperDemo" />
-        <item itemvalue="Application.TestJDBCSink02" />
+        <item itemvalue="Application.RepartitionDemo" />
+        <item itemvalue="Application.TableTest" />
+        <item itemvalue="Application.StateDemo" />
+        <item itemvalue="Application.SensorReadingWindow02" />
+        <item itemvalue="Application.SideOutputDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -190,8 +207,17 @@
       <workItem from="1582984024269" duration="2916000" />
       <workItem from="1582987515540" duration="29261000" />
       <workItem from="1583142023417" duration="14448000" />
-      <workItem from="1583244608824" duration="16207000" />
+      <workItem from="1583244608824" duration="80171000" />
+      <workItem from="1583714627221" duration="2024000" />
     </task>
+    <task id="LOCAL-00001" summary="新增">
+      <created>1583317763519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583317763519</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,11 +228,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
