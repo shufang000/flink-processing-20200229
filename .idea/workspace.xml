@@ -2,31 +2,164 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50ca53b4-d1a9-4633-ac55-cceba50fd839" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/connectors/KafkaSource01.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/executionconfig/ExecutionConfigs.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/functions/ProcessFunctionTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/functions/SensorHighTempWarnDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/functions/SideOutputDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/repartition/RepartitionDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/state/CheckPointDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/state/StateDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/table_and_sql_api/TableTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/window/SensorReadingWindow02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/flink-processing-20200229.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/flinkFlile" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/flinkFlile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/connectors/StreamFromKafka.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/connectors/StreamFromKafka.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/connectors/TestKafkaSink.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/shufang/flink/connectors/TestKafkaSink.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/StreamFromKafka$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/StreamFromKafka.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2$$anon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flinkFlile" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flinkFlile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/flink-processing20200229.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/bean/People$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/bean/People.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/bean/SensorReading$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/bean/SensorReading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/MyJdbcFuntion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink$MyJDBCSink$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink02$$anon$3$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink02$$anon$3$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink02$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink02$$anon$4$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink02$$anon$4$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink02$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink02$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink02$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink02$MyMapper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestJDBCSink02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestKafkaSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestRedisSink$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestRedisSink$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestRedisSink$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestRedisSink$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestRedisSink$MyMapper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/connectors/TestRedisSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/FlinkWordCountFromSocket$$anon$3$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/FlinkWordCountFromSocket$$anon$3$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/FlinkWordCountFromSocket$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/FlinkWordCountFromSocket$$anon$4$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/FlinkWordCountFromSocket$$anon$4$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/FlinkWordCountFromSocket$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/FlinkWordCountFromSocket$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/FlinkWordCountFromSocket$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/FlinkWordCountFromSocket$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/FlinkWordCountFromSocket$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/FlinkWordCountFromSocket$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/FlinkWordCountFromSocket$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/FlinkWordCountFromSocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/MyPeopleSource$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/MyPeopleSource$$anonfun$run$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/MyPeopleSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/Myfilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/StreamFromFile$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/StreamFromFile$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/StreamFromFile$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/StreamFromFile$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/StreamFromFile$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/StreamFromFile$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/StreamFromFile$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/StreamFromFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/StreamFromMyPeopleSource$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/StreamFromMyPeopleSource$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/StreamFromMyPeopleSource$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/StreamFromMyPeopleSource$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/StreamFromMyPeopleSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/TestFunctionUsage$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/TestFunctionUsage$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/examples/TestFunctionUsage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anon$5$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anon$5$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anon$6$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anon$6$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anon$7$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anon$7$$anonfun$createSerializer$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anon$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anon$8$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anon$8$$anonfun$createSerializer$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anon$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/extension_scala/ExtensionMapWith.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/functions/MyMapFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/ConnectAndCoMapApi$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/ConnectAndCoMapApi$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/ConnectAndCoMapApi$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/ConnectAndCoMapApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$$anon$4$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$$anon$4$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$$anon$5$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$$anon$5$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$$anon$6$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$$anon$6$$anonfun$createSerializer$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/DataStreamOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/SplitAndSelectApi$$anon$3$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/SplitAndSelectApi$$anon$3$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/SplitAndSelectApi$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/SplitAndSelectApi$$anon$4$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/SplitAndSelectApi$$anon$4$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/SplitAndSelectApi$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/SplitAndSelectApi$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/SplitAndSelectApi$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/SplitAndSelectApi$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/SplitAndSelectApi$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/operator/SplitAndSelectApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/utils/TestTime$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/utils/TestTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/SensorReadingWindow$$anon$3$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/SensorReadingWindow$$anon$3$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/SensorReadingWindow$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/SensorReadingWindow$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/SensorReadingWindow$$anon$5$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/SensorReadingWindow$$anon$5$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/SensorReadingWindow$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/SensorReadingWindow$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/SensorReadingWindow$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/SensorReadingWindow$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/SensorReadingWindow$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/SensorReadingWindow$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/SensorReadingWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WaterMarkDemo$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WaterMarkDemo$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WaterMarkDemo$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WaterMarkDemo$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WaterMarkDemo$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WaterMarkDemo$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WaterMarkDemo$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WaterMarkDemo$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WaterMarkDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WaterMarkDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WindowOperDemo$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WindowOperDemo$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WindowOperDemo$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WindowOperDemo$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WindowOperDemo$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WindowOperDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shufang/flink/window/WindowOperDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flinkFlile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugsin-maven" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,33 +222,28 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.RepartitionDemo">
     <configuration name="RepartitionDemo" type="Application" factoryName="Application" temporary="true">
@@ -209,6 +337,10 @@
       <workItem from="1583142023417" duration="14448000" />
       <workItem from="1583244608824" duration="80171000" />
       <workItem from="1583714627221" duration="2024000" />
+      <workItem from="1584158288210" duration="728000" />
+      <workItem from="1585639076831" duration="537000" />
+      <workItem from="1586252991082" duration="440000" />
+      <workItem from="1586498249551" duration="4668000" />
     </task>
     <task id="LOCAL-00001" summary="新增">
       <created>1583317763519</created>
@@ -217,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583317763519</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增">
+      <created>1584158330197</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584158330197</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +378,34 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增" />
     <option name="LAST_COMMIT_MESSAGE" value="新增" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="340" y="100" key="#Project_Structure" timestamp="1586498404895">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="340" y="100" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1586498404895" />
+    <state x="340" y="113" key="#Project_Structure/0.23.1440.813@0.23.1440.813" timestamp="1585639312897" />
+    <state x="463" y="369" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1585639176648">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="463" y="369" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.1440.813@0.23.1440.813" timestamp="1585639176648" />
+    <state x="354" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585639197879">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="354" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1440.813@0.23.1440.813" timestamp="1585639197879" />
+    <state x="241" y="0" key="SettingsEditor" timestamp="1586681416679">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="241" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586681416679" />
+    <state x="241" y="23" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1585639259678" />
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1586498250818">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586498250818" />
+    <state x="97" y="154" key="new project wizard" timestamp="1586679618389">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="97" y="154" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1586679618389" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
